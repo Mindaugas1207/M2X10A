@@ -27,7 +27,7 @@ void M2X10A_Init()
   pinMode(M2X10A_PWMB_PIN, OUTPUT);
 
   /* Configure driver PWM mode
-   * Set INV pins to 0 to enable active braking.
+   * Set INV pins to 1 to enable active braking.
    */
   digitalWrite(M2X10A_INVA_PIN, 1);
   digitalWrite(M2X10A_INVB_PIN, 1);
